@@ -11,8 +11,8 @@ body{
 }
 
 .container{
-  background-color:rgb(209, 178, 230);
-  border: 1px solid rgb(209, 178, 230);
+  background-color:rgb(226, 199, 224);
+  border: 1px solid rgb(226, 199, 224);
   border-radius: 10px;
   height: 230px;
   width: 300px;
@@ -29,5 +29,5 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
