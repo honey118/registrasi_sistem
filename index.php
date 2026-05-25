@@ -22,25 +22,29 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
   <h1>Selamat Datang!</h1>
-  <form method="POST">
-    <div>
+<div class="container">
+  <p>Silahkan daftar dengan format di bawah ini.</p>
+  <form method="POST" class="form">
+    <div class="usn">
     <label>Username:</label>
     <input type="text" id="username" name="username" required>
     </div>
     
-    <div>
+    <div class="pw">
     <label>Password:</label>
     <input type="password" id="password" name="password" required>
     </div>
 
-    <div>
+    <div class="email">
     <label>Email:</label>
     <input type="email" id="email" name="email" required>
     </div>
 
-    <div>
-    <input type="submit" value="Login" name="submit">
+    <div class="submit">
+    <input type="submit" value="Submit" name="submit">
     </div>
   </form>
+</div>
+
 </body>
 </html>
