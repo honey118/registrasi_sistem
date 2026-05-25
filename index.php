@@ -7,8 +7,8 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
     $email = $_POST['email'];
 
-    $eksekusi = "INSERT INTO tb_users (nama, password, email) VALUES ('$username', '$password', '$email')";
-    $query = mysqli_query($koneksi, $eksekusi);
+    $result = "INSERT INTO tb_users (nama, password, email) VALUES ('$username', '$password', '$email')";
+    $query = mysqli_query($koneksi, $result);
 }
 ?>
 
